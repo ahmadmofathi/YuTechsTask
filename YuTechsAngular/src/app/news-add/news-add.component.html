@@ -1,0 +1,83 @@
+<form [formGroup]="AddNewsForm" (ngSubmit)="onSubmit()" class="m-6" >
+    <div class="alert alert-success" role="alert" *ngIf="this.done">
+        Author is Added Successfuly!
+    </div>
+    <div class="alert alert-danger" role="alert" *ngIf="this.err!=''">
+        {{ err }} 
+    </div>
+    <h3 class="col-md-3">Add News</h3>
+    <div class="form-group col-md-3">
+        <label for="title">
+            News Title
+            <span class="text-danger">*</span>
+            <span class="badge bg-danger text-wrap text-white mx-2" *ngIf="AddNewsForm.controls['title'].errors && AddNewsForm.controls['title'].touched">
+                Invalid
+            </span>
+        </label>
+        <div class="d-flex">
+            <input type="text" class="form-control" id="title" formControlName="title" />
+        </div>
+    </div>
+    <div class="form-group col-md-3">
+        <label for="content">
+            Content
+            <span class="text-danger">*</span>
+            <span class="badge bg-danger text-wrap text-white mx-2" *ngIf="AddNewsForm.controls['content'].errors && AddNewsForm.controls['content'].touched">
+                Invalid
+            </span>
+        </label>
+        <div class="d-flex">
+            <textarea 
+                rows="5"
+                cols="40" 
+                pInputTextarea 
+                formControlName="content">
+            </textarea>
+        </div>
+    </div>
+    <div class="form-group col-md-3">
+        <label for="author">
+            <span class="badge bg-danger text-wrap text-white mx-2" *ngIf="AddNewsForm.controls['author'].errors && AddNewsForm.controls['author'].touched">
+                Invalid
+            </span>
+        </label>
+            <div class="d-flex">
+                <p-dropdown 
+                    [options]="authors" 
+                    optionLabel="authorName" 
+                    optionValue="authorId"
+                    placeholder="Select the author"
+                    formControlName="author">
+                </p-dropdown>
+            </div>
+    </div>
+    <div class="form-group col-md-3">
+        <label for="publicationDate">
+            Publication Date
+            <span class="text-danger">*</span>
+            <span class="badge bg-danger text-wrap text-white mx-2" *ngIf="AddNewsForm.controls['publicationDate'].errors && AddNewsForm.controls['publicationDate'].touched">
+                Invalid
+            </span>
+        </label>
+        <div class="d-flex">
+            <input type="date" class="form-control" id="publicationDate" formControlName="publicationDate" />
+        </div>
+    </div>
+    <div class="form-group col-md-3">
+        <input 
+        type="file"
+        name="picture"
+        id="picture"    
+        accept="image/*"
+        (change)="onFileSelected($event)"         
+        >
+    </div>
+        <button
+        type="submit"
+        class="btn btn-primary m-1"
+        [disabled]="!AddNewsForm.valid"
+    >
+        Add
+    </button>
+</form>
+

@@ -1,0 +1,26 @@
+    <div class="d-flex flex-column justify-content-center align-items-center m-3">
+    <h1 class="m-1">
+        {{ news.title }}
+    </h1>
+    <h5 class="m-1">
+        {{ author.authorName }}
+    </h5>
+    <div class="m-1" style="width: 75%;">
+        <p-image 
+                    [src]="news.image" 
+                    alt="Image" 
+                    class="width"
+                    width="100%"
+                    [ngStyle]="{ 'max-width.px': '300', 'max-height.px': '300', 'object-fit': 'cover' }"
+        />
+        <div class="d-flex justify-content-end m-1">
+            Created At: &nbsp; <b>{{ news.creationDate }}</b> -
+            Published At: &nbsp; <b>{{ news.publicationDate }}</b>
+        </div>
+    </div>
+    <div style="width: 75%;" class="m-1">
+        <p>
+            {{ news.newsContent }}
+        </p>
+    </div>
+</div>

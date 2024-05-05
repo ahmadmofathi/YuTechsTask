@@ -1,0 +1,26 @@
+<div class="m-6" *ngIf="userData">
+    <button pButton pRipple label="Add News" (click)="AddNews()" class="p-button-success mx-1"></button>
+</div>
+<p-confirmDialog></p-confirmDialog>
+<div class="surface-card p-4 shadow-2 border-round m-6" *ngFor="let news of News">
+    <div class="text-3xl font-medium text-900 mb-3"><a style="cursor: pointer;" (click)="newsDetails(news.newsId)">{{ news.title }}</a></div>
+    <div class="font-medium text-500 mb-3 d-flex justify-content-end">Published at: {{ news.publicationDate }}</div>
+    <a style="cursor: pointer;" (click)="newsDetails(news.newsId)">
+    <div 
+        class="border-2 parent w-full border-dashed surface-border d-flex justify-content-center"
+    >
+        <p-image 
+            [src]="news.image" 
+            alt="Image" 
+            class="width"
+            width="100%"
+            [ngStyle]="{ 'max-width.px': '300', 'max-height.px': '300', 'object-fit': 'cover' }"
+        />
+    </div>
+</a>
+    <div class="d-flex justify-content-end m-1" *ngIf="userData">
+        <button pButton pRipple label="Edit" (click)="EditNews(news.newsId)" class="p-button-warning mx-1"></button>
+        <button pButton pRipple label="Delete" (click)="confirmDelete($event,news.newsId)" class="p-button-danger mx-1"></button>
+        <p-toast></p-toast>
+    </div>
+</div>

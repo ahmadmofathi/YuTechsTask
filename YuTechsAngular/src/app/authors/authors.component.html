@@ -1,0 +1,61 @@
+<app-authors-add></app-authors-add>
+<div class="card m-7">
+    <h4 class="m-2">Authors</h4>
+    <p-confirmDialog></p-confirmDialog>
+    <p-table [value]="Authors" dataKey="authorId" [tableStyle]="{ 'min-width': '50rem' }">
+        <ng-template pTemplate="header">
+            <tr>
+                <th pSortableColumn="authorId" style="width:25%">
+                    Id <p-sortIcon field="authorId" />
+                </th>
+                <th pSortableColumn="authorName" style="width:25%">
+                    Name <p-sortIcon field="authorName" />
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <p-columnFilter type="text" field="authorId" [showClearButton]="false" />
+                </th>
+                <th>
+                    <p-columnFilter type="text" field="authorName" [showClearButton]="false" />
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-author let-editing="editing">
+            <tr>
+                <td [pEditableColumn]="author.authorId" pEditableColumnField="authorId">
+                    <p-cellEditor>
+                        <ng-template pTemplate="input">
+                            <input pInputText type="text" [(ngModel)]="author.authorId" />
+                        </ng-template>
+                        <ng-template pTemplate="output">
+                            {{ author.authorId }}
+                        </ng-template>
+                    </p-cellEditor>
+                </td>
+                <td [pEditableColumn]="author.authorName" pEditableColumnField="authorName">
+                    <p-cellEditor>
+                        <ng-template pTemplate="input">
+                            <input pInputText type="text" [(ngModel)]="author.authorName" required />
+                        </ng-template>
+                        <ng-template pTemplate="output">
+                            {{ author.authorName}}
+                        </ng-template>
+                    </p-cellEditor>
+                </td>
+                <td>
+                    <button pButton pRipple label="Edit" (click)="Edit(author.authorId)" class="p-button-warning mx-1"></button>
+                    <button pButton pRipple label="Delete" (click)="confirmDelete($event,author.authorId)" class="p-button-danger mx-1"></button>
+                    <p-toast></p-toast>
+                </td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
+
