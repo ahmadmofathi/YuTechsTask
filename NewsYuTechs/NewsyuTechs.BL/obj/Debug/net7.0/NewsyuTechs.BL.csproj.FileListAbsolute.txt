@@ -1,0 +1,17 @@
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\bin\Debug\net7.0\NewsyuTechs.BL.deps.json
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\bin\Debug\net7.0\NewsyuTechs.BL.dll
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\bin\Debug\net7.0\NewsyuTechs.BL.pdb
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\NewsyuTechs.BL.csproj.AssemblyReference.cache
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\NewsyuTechs.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\NewsyuTechs.BL.AssemblyInfoInputs.cache
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\NewsyuTechs.BL.AssemblyInfo.cs
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\NewsyuTechs.BL.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\NewsyuTechs.BL.dll
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\refint\NewsyuTechs.BL.dll
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\NewsyuTechs.BL.pdb
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\ref\NewsyuTechs.BL.dll
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\bin\Debug\net7.0\NewsyuTechs.BL.runtimeconfig.json
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\bin\Debug\net7.0\NewsYuTechs.DAL.dll
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\bin\Debug\net7.0\NewsYuTechs.DAL.pdb
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\NewsyuTechs.BL.csproj.CopyComplete
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsyuTechs.BL\obj\Debug\net7.0\NewsyuTechs.BL.genruntimeconfig.cache

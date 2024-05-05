@@ -1,0 +1,14 @@
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\bin\Debug\net7.0\NewsYuTechs.DAL.deps.json
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\bin\Debug\net7.0\NewsYuTechs.DAL.dll
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\bin\Debug\net7.0\NewsYuTechs.DAL.pdb
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\obj\Debug\net7.0\NewsYuTechs.DAL.csproj.AssemblyReference.cache
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\obj\Debug\net7.0\NewsYuTechs.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\obj\Debug\net7.0\NewsYuTechs.DAL.AssemblyInfoInputs.cache
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\obj\Debug\net7.0\NewsYuTechs.DAL.AssemblyInfo.cs
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\obj\Debug\net7.0\NewsYuTechs.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\obj\Debug\net7.0\NewsYuTechs.DAL.dll
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\obj\Debug\net7.0\refint\NewsYuTechs.DAL.dll
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\obj\Debug\net7.0\NewsYuTechs.DAL.pdb
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\obj\Debug\net7.0\ref\NewsYuTechs.DAL.dll
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\bin\Debug\net7.0\NewsYuTechs.DAL.runtimeconfig.json
+C:\Users\ahmad\source\repos\NewsYuTechs\NewsYuTechs.DAL\obj\Debug\net7.0\NewsYuTechs.DAL.genruntimeconfig.cache
